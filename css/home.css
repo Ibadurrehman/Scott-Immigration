@@ -1,0 +1,13 @@
+﻿.row, .site-header .site-header-row, .user-need, .footer-products-a .footer-products-row, .footer-nav-bg .footer-nav, .footer-nav-mobile-row, .site-content > .site-content-container > .site-content-row, .home-page-es .all-forms-row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+    .row:before, .site-header .site-header-row:before, .user-need:before, .footer-products-a .footer-products-row:before, .footer-nav-bg .footer-nav:before, .footer-nav-mobile-row:before, .site-content > .site-content-container > .site-content-row:before, .home-page-es .all-forms-row:before, .row:after, .site-header .site-header-row:after, .user-need:after, .footer-products-a .footer-products-row:after, .footer-nav-bg .footer-nav:after, .footer-nav-mobile-row:after, .site-content > .site-content-container > .site-content-row:after, .home-page-es .all-forms-row:after {
+        content: " ";
+        display: table;
+    }
+
+    .row:after, .site-header .site-header-row:after, .user-need:after, .footer-products-a .footer-products-row:after, .footer-nav-bg .footer-nav:after, .footer-nav-mobile-row:after, .site-content > .site-content-container > .site-content-row:after, .home-page-es .all-forms-row:after {
+        clear: both;
+    }
