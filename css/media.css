@@ -1,0 +1,110 @@
+﻿@media (max-width:991px) {
+    .user-utility {
+        display: none;
+    }
+
+    .m-menu-icon {
+        display: block;
+    }
+
+    .menu-icon {
+        font-size: 35px;
+        padding: 0px 7px;
+        cursor: pointer;
+    }
+
+    .site-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        z-index: 100;
+        background-color: #00307e;
+        background-image: none;
+        color: #fff;
+        width: 240px;
+        align-items: flex-start;
+        padding-top: 70px;
+    }
+
+    .nav-item > a {
+        color: #fff;
+        background-color: #002566;
+        background-color: #002566;
+        background-image: -webkit-linear-gradient(top, #013589 0%, #002566 100%);
+        background-image: -o-linear-gradient(top, #013589 0%, #002566 100%);
+        background-image: linear-gradient(to bottom, #013589 0%, #002566 100%);
+        width: 100%;
+    }
+
+    .nav-center {
+        justify-content: flex-start;
+        margin: 0;
+        max-height: calc(100vh - 110px);
+        overflow: hidden;
+        overflow-y: auto;
+    }
+
+    .nav-item {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .site-nav > .container {
+        padding: 0;
+    }
+
+    .site-logo > img {
+        width: 200px;
+    }
+
+    .site-header {
+        height: 70px;
+        float: left;
+        width: 100%;
+    }
+
+    .main-wrapper .container {
+        max-width: 95%;
+    }
+
+    .site-nav .container {
+        max-width: 100%;
+    }
+
+    .menu-row:before {
+        display: none;
+    }
+
+    .menu-row {
+        visibility: visible;
+        opacity: 1;
+        position: relative;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        background-color: #002668;
+        margin-top: 0;
+    }
+
+        .menu-row > ul > li {
+            min-width: 100%;
+        }
+
+            .menu-row > ul > li > a {
+                color: #abb4c3;
+                line-height: 1.6em;
+            }
+
+    .nav-item:hover .menu-row {
+        opacity: 1;
+        top: 0;
+        visibility: visible;
+    }
+
+    .menu-row > ul > li > a:hover {
+        background-color: #0948af;
+        color: #fff;
+    }
+}
